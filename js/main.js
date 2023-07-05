@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', async() => {
 
 let show = []
 
-const header = document.querySelector('#header-box')
 const charactersList = document.querySelector('#container')
 const input = document.querySelector('#search_input')
 
@@ -27,6 +26,3 @@ function showCharacters(container) {
     const itemCharacters = createCharacters(container)
     charactersList.innerHTML = itemCharacters
 }
-
-
-
